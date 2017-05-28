@@ -36,13 +36,14 @@ then unlink composer-setup.php with:
 ```bash
 php -r "unlink('composer-setup.php');"
 ```
-## Run Tests
-Run phpunit command from root directory of the project.
+## Tests
+I used phpunit to drive my TDD approach to this task, you can check and run the testing from the command line:
 ```bash
 phpunit
 ```
 
-## Run Code
+## Code
+To run the program from the command line, follow type:
 ```bash
 $tripSorter = new TripSorter();
 $sortedBoardingCards = $tripSorter->addBoardingCard($airplaneCard1)
@@ -52,3 +53,7 @@ $sortedBoardingCards = $tripSorter->addBoardingCard($airplaneCard1)
     ->sortBoardingCards()
     ->getSortedBoardingCards();
 ```
+
+## Final Thoughts
+
+This was my first attempt at writing a program in PHP. Having received the email on Friday afternoon saying I had been put forward to the tech test stage, I had to research php from design and testing from the beginning. In the end I have come up with a program that is simple and easy to execute from the command line although if I had more time I would have implemented a server to output on localhost. I had great difficulties with composer and phpunit as there is not a lot of full documentation regarding how to set this up completely. However I have followed TDD and OOP design principles to the best of my abilities with the time constraints and, I feel I can be confident of my effort with this although there is a lot of room to improve my skills which will only come with more practise.

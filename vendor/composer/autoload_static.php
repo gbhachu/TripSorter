@@ -15,6 +15,11 @@ class ComposerStaticInitc1482491857e5759f320f737253d369a
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'TripSorter\\' => 11,
+            'TripSorterTest\\' => 15,
+        ),
         'S' => 
         array (
             'Symfony\\Component\\Yaml\\' => 23,
@@ -36,6 +41,14 @@ class ComposerStaticInitc1482491857e5759f320f737253d369a
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'TripSorter\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
+        'TripSorterTest\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Symfony\\Component\\Yaml\\' => 
         array (
